@@ -1,0 +1,25 @@
+<extensionTypeMapList>
+    <map fileExtension=".app" salesforcePackageType="CustomApplication"/>
+    <map fileExtension=".cls" salesforcePackageType="ApexClass"/>
+    <map fileExtension=".cls-meta.xml" salesforcePackageType="ApexClass"/>
+    <map fileExtension=".component" salesforcePackageType="ApexComponent"/>
+    <map fileExtension=".component-meta.xml" salesforcePackageType="ApexComponent"/>
+    <map fileExtension=".connectedApp" salesforcePackageType="ConnectedApp"/>
+    <map fileExtension=".homePageComponent" salesforcePackageType="HomePageComponent"/>
+    <map fileExtension=".homePageLayout" salesforcePackageType="HomePageLayout"/>
+    <map fileExtension=".layout" salesforcePackageType="Layout"/>
+    <map fileExtension=".object" salesforcePackageType="CustomObject"/>
+    <map fileExtension=".objectTranslation" salesforcePackageType="CustomObjectTranslation"/>
+    <map fileExtension=".page" salesforcePackageType="ApexPage"/>
+    <map fileExtension=".page-meta.xml" salesforcePackageType="ApexPage"/>
+    <map fileExtension=".permissionset" salesforcePackageType="PermissionSet"/>
+    <map fileExtension=".profile" salesforcePackageType="Profile"/>
+    <map fileExtension=".remoteSite" salesforcePackageType="RemoteSiteSetting"/>
+    <map fileExtension=".resource" salesforcePackageType="StaticResource"/>
+    <map fileExtension=".resource-meta.xml" salesforcePackageType="StaticResource"/>
+    <map fileExtension=".tab" salesforcePackageType="CustomTab"/>
+    <map fileExtension=".trigger" salesforcePackageType="ApexTrigger"/>
+    <map fileExtension=".trigger-meta.xml" salesforcePackageType="ApexTrigger"/>
+    <map fileExtension=".weblink" salesforcePackageType="CustomPageWebLink"/>
+    <map fileExtension=".customPermission" salesforcePackageType="CustomPermission"/>
+</extensionTypeMapList>

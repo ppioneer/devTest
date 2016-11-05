@@ -1,0 +1,2 @@
+projectName = Health Connect
+author = Evariant <a href="mailto:apps.evx@evariant.com?Subject=Health%20Connect"> (apps.evx@evariant.com)</a>

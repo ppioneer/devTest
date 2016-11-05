@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+	<sharingModel>ReadWrite</sharingModel>
+    <fields>
+        <fullName>PRMGoActivity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field will be used to check the record is created from PRM Go! Mobile App</description>
+        <externalId>false</externalId>
+        <label>PRM Go! Activity</label>
+        <required>false</required>
+        <type>Checkbox</type>
+    </fields>
+	<label>Issue</label>
+    <pluralLabel>Issues</pluralLabel>
+    <nameField>
+        <displayFormat>ISS-{0000000000}</displayFormat>
+        <label>Issue Name</label>        
+        <type>AutoNumber</type>
+    </nameField>
+    <fieldSets>
+        <fullName>EditIssue</fullName>
+        <description>This FieldSet will be used in PRM Go!, to Create/Edit the Issue records</description>
+        <displayedFields>
+            <field>HC4__Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__Subject__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__LongDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__InternalComments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__Origin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__Reason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HC4__DateTimeOpened__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Edit Issue</label>
+    </fieldSets>
+</CustomObject>
