@@ -1,0 +1,18 @@
+<project basedir="." xmlns:sf="antlib:com.salesforce">
+	<import file="build.xml"/>
+
+    <taskdef 
+        resource="com/force/jp/ant/apextestplus/antlib.xml"
+        classpath="${dir.lib}/ant-apextestplus.jar"/>
+
+    <target name="generateCodeCoverage" depends="cleanOutCoverageDir">
+        <runTest username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" srcDir="${dir.src}" outDir="${dir.coverage}" runAllTests="true" logType="None"/>
+        <zip destfile="${dir.coverage}/coverage.zip" 
+            basedir="${dir.coverage}" />
+    </target>
+
+    <target name="cleanOutCoverageDir">
+        <delete dir="${dir.coverage}" failonerror="false"/>
+        <mkdir dir="${dir.coverage}"/>
+    </target>
+</project>
