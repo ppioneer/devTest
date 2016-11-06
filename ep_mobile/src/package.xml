@@ -4,10 +4,10 @@
         <members>*</members>
         <name>ApexClass</name>
     </types>
-    <types>
+    <!--<types>
         <members>*</members>
         <name>ConnectedApp</name>
-    </types>
+    </types> -->
     <types>
         <members>*</members>
         <name>CustomLabels</name>
